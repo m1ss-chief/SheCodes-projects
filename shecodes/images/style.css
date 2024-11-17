@@ -1,0 +1,137 @@
+Basic styling and reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier', sans-serif;
+    background-image: none;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px;
+    background-color: #fafafa;
+    position:var();
+    top: 0;
+    z-index: 1000;
+}
+
+.logo_image {
+max-width: 70%;
+}
+.logo {
+    font-size: 1.5em;
+    color: #ff0077;
+    font-family: 'Pacifico', cursive;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    align-items: center;
+    gap: 100px;
+     /* Replace with your image path */
+    background-size: contain; /* Fits the entire image */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    
+}
+.hero-content {
+    max-width: 60%;
+    
+}
+
+
+.hero-content p {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 30px;
+    margin-top: 1px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff0077;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    box-shadow: #333;
+}
+
+.button:hover {
+    background-color: #0a0809;
+}
+
+.hero-images {
+    display:grid;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.emoji {
+    max-width: 130%;
+    height: auto;
+    
+}
+
+
+.wave {
+    max-width:fit-content;
+    align-items:center;
+    /* padding-left: 150px;
+    padding-right: 150px; */
+    margin: 0 auto;
+    
+}
+.grow-image {
+    margin-top: 10px; /* Adds space above the new image */
+    text-align: center; /* Centers the image */
+     
+}
+
+.new-image {
+    max-width: 100%;
+    height: auto;
+    padding-left: 50px;
+}    
+
+
+
+
+footer {
+    background-color: #fafafa;
+    padding: 20px 0;
+    text-align: center;
+}
+
